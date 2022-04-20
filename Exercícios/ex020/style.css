@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+
+div{
+    color:black;
+    background-color:rgb(238, 12, 12);
+    width: 800px;
+    height: 700px;
+    border: 2px solid black;
+    text-align: center;
+}
+div > p{
+    display: none;
+}
+div:hover > p {/*Quando inclui o hover ele mostrará a tela os parametros que estão definidos dentro do colchete, que estão oculto devido a div anterior (div > p)*/
+    display: block;
+    font-size: 3em;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}

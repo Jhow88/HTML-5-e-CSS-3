@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Vocẽ está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para ampliar sua experiência!</p>
+    <picture>
+        <source media="(max-width:800px )" srcset="imagens/papeldeparede-p.jpg" type="image/jpg">
+        <source media="(max-width:1100px )" srcset="imagens/papeldeparede-m.jpg" type="image/jpg">
+        <img src="imagens/papeldeparede-g.jpg" alt="Imagem de tamanho grande">
+    </picture>
+</body> 
+</html>
