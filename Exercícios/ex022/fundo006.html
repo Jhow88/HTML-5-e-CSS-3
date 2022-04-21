@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo Fixo de Tela</title>
+    <style>
+        body{
+            height: 100vh; 
+            background-color: black;
+            background-image: url(imagens/wallpaper002.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;/*A definição cover a imagem cobre 100% da tela sem mostrar o background-color (fundo)*/
+            background-attachment: fixed;/* A definição fixed, o fundo fica parado sem acompanhar a rolagem do conteúdo*/
+            /*A sequência para fazer a shorthand para BACKGROUND é : color > image >position > repeat > size > attachment. Obs:. Se a shorthand não funcionar retirar SIZE e colocar separado como background-size*/
+        }
+        main{
+            background-color: white;
+            max-width: 500px;
+            padding: 10px;
+            margin: auto;
+            border: 1px solid darkblue;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de Imagem de Fundo</h1>
+    
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum velit voluptatum pariatur nulla debitis repellat incidunt, illo dolorum soluta corporis eaque laboriosam animi! Consectetur, recusandae vitae. Impedit omnis at sapiente? </p>
+    </main>
+</body>
+</html>
